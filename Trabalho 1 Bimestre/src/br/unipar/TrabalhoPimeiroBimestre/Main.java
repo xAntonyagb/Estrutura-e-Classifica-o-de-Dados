@@ -20,6 +20,8 @@ public class Main {
         //O código foi comentado para uma melhor leitura e interpretação do mesmo.
         
         
+        //Resultados obtidos: O Metodo de ordenação bolha é o mais demorado entre os 3, após isso, o de seleção e o mais rápido sendo o de inserção. Esses resultados são mais perceptiveis
+        //quando feitos em listas maiores, já que o tempo para roda-lás é maior. Tornando suas diferenças mais evidentes.
         
 
         //Declaração do vetor "vetor" como um vetor de números
@@ -132,8 +134,8 @@ public class Main {
     private static void metodoInsercao(int[] vetor){
         //Criando o objeto do metodo de ordenação e populando seus atributos
         OrdenacaoInsercao insercao = new OrdenacaoInsercao();
-        insercao.setVetor(vetor);
-        insercao.ordenarVetor(vetor);
+        insercao.setVetor(vetor.clone());
+        insercao.ordenarVetor(vetor.clone());
         
 
         System.out.println(insercao.toString());
@@ -145,8 +147,8 @@ public class Main {
     private static void metodoSelecao(int[] vetor){
         //Criando o objeto do metodo de ordenação e populando seus atributos
         OrdencaoSelecao selecao = new OrdencaoSelecao();
-        selecao.setVetor(vetor);
-        selecao.ordenarVetor(vetor);
+        selecao.setVetor(vetor.clone());
+        selecao.ordenarVetor(vetor.clone());
 
         System.out.println(selecao.toString());
         
@@ -157,8 +159,8 @@ public class Main {
     private static void metodoBolha(int[] vetor){
         //Criando o objeto do metodo de ordenação e populando seus atributos
         OrdencaoBolha bolha = new OrdencaoBolha();
-        bolha.setVetor(vetor);
-        bolha.ordenarVetor(vetor);
+        bolha.setVetor(vetor.clone());
+        bolha.ordenarVetor(vetor.clone());
 
         System.out.println(bolha.toString());
         
