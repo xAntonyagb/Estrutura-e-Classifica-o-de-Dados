@@ -1,0 +1,5 @@
+br\unipar\exercicio_metodospesquisas\model\Vetor.class
+br\unipar\exercicio_metodospesquisas\model\Binaria.class
+br\unipar\exercicio_metodospesquisas\Exercicio_MetodosPesquisas.class
+br\unipar\exercicio_metodospesquisas\model\abstracts\MetodoPesquisa.class
+br\unipar\exercicio_metodospesquisas\model\Linear.class
